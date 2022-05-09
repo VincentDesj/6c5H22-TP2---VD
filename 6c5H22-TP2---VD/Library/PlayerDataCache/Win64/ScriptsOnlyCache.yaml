@@ -3,11 +3,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraFollow
     - ChangeScene
+    - DamageTrigger
     - PlayerSetup
     - PrometeoCarController
-    - RammingTrigger
     Mirror.Components.dll:
     - Mirror.NetworkTransformChild
+    Mirror.Editor.dll:
+    - Mirror.NetworkBehaviourInspector
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
@@ -99,9 +101,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3242}
     - Class: 114
-      Script: {instanceID: 3552}
+      Script: {instanceID: 4298}
     - Class: 114
-      Script: {instanceID: 4300}
+      Script: {instanceID: 4354}
     - Class: 114
       Script: {instanceID: 4590}
     - Class: 114
@@ -729,12 +731,6 @@ ScriptsOnlyBuild:
     className: Player
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RammingTrigger
-  - hash:
-      serializedVersion: 2
       Hash: b18f0d55b218ff8d17c2c7411b02c1bf
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
@@ -969,6 +965,12 @@ ScriptsOnlyBuild:
     className: PlayerCamera
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DamageTrigger
+  - hash:
+      serializedVersion: 2
       Hash: 3793ea39e1509ab55be9f5f40e9cbaa3
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
@@ -1168,4 +1170,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/SceneJeu/Jeu.unity
-  playerPath: F:/LIMOILOU/H-2022/Application_de_jeux_et_simulations_2/TP/NEW TP_2/6c5H22-TP2---VD/Build/6c5H22-TP2---VD.exe
+  playerPath: C:/Users/1867319/Desktop/Jeu2-ProjetFinal/TP2/6c5H22-TP2---VD/6c5H22-TP2---VD/Build/6c5H22-TP2---VD.exe
