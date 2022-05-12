@@ -1,0 +1,2 @@
+C:\Users\BitFenix\Desktop\App_Jeu_2\TP\TP 2\6c5H22-TP2---VD\6c5H22-TP2---VD\obj\Debug\Mirror.Player.csproj.AssemblyReference.cache
+C:\Users\BitFenix\Desktop\App_Jeu_2\TP\TP 2\6c5H22-TP2---VD\6c5H22-TP2---VD\obj\Debug\Mirror.Player.csproj.CoreCompileInputs.cache
