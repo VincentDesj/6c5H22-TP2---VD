@@ -1,23 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject ball;
-
-    public Transform position01;
-    public Transform position02;
-
     private const string playerIdPrefix = "Player";
 
     private static Dictionary<string, PlayerCtrl> players = new Dictionary<string, PlayerCtrl>();
 
-    public static string RegisterPlayer(string netID, PlayerCtrl player)
+    public static void RegisterPlayer(string netID, PlayerCtrl player)
     {
-        string playerId = playerIdPrefix + netID;
-        players.Add(playerId, player);
-        return playerId;
+        if (player.gameObject.tag == "Player") 
+        { 
+            string playerId = playerIdPrefix + (Int32.Parse(netID) - 2);
+            players.Add(playerId, player);
+            player.transform.name = playerId;
+        }
     }
 
     public static void UnregisterPlayer(string playerId)
@@ -25,19 +24,20 @@ public class GameManager : MonoBehaviour
         players.Remove(playerId);
     }
 
-    public void SpawnBalls() 
-    {
-        Instantiate(ball, position01.transform.position, position01.transform.rotation);
-        Instantiate(ball, position02.transform.position, position02.transform.rotation);
-    }
-
     private void OnGUI()
     {
-        GUILayout.BeginArea(new Rect(270, 25, 200, 500));
+        GUILayout.BeginArea(new Rect(1000, 25, 200, 500));
         GUILayout.BeginVertical();
 
-        foreach (KeyValuePair<string, PlayerCtrl> playerId in players)
-            GUILayout.Label(playerId.Key + " - " + playerId.Value.lifePoint);
+        foreach (string playerId in players.Keys) 
+        {
+            if (players[playerId].tag == "Player")
+                if (players[playerId] == null) 
+                { 
+                    
+                }
+                GUILayout.Label(playerId + " - " + players[playerId].lifePoint);
+        }
 
         GUILayout.EndVertical();
         GUILayout.EndArea();

@@ -78,49 +78,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1490}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 1804}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 1812}
+      Script: {instanceID: 1828}
     - Class: 114
-      Script: {instanceID: 2138}
+      Script: {instanceID: 2154}
     - Class: 114
-      Script: {instanceID: 2310}
+      Script: {instanceID: 2326}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2476}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2518}
     - Class: 114
-      Script: {instanceID: 2630}
+      Script: {instanceID: 2646}
     - Class: 114
-      Script: {instanceID: 2710}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3048}
+      Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3260}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 3992}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 4318}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4374}
     - Class: 114
-      Script: {instanceID: 4422}
+      Script: {instanceID: 4438}
     - Class: 114
-      Script: {instanceID: 4594}
+      Script: {instanceID: 4610}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4688}
     - Class: 114
-      Script: {instanceID: 4728}
+      Script: {instanceID: 4744}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 5000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -870,7 +870,7 @@ ScriptsOnlyBuild:
     className: Tank
   - hash:
       serializedVersion: 2
-      Hash: cbc1af9246083f3fa375ae5d5e269017
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1104,12 +1104,6 @@ ScriptsOnlyBuild:
     className: NetworkRoomManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NewBehaviourScript
-  - hash:
-      serializedVersion: 2
       Hash: 28f0b7dc4aa4a32304979bbc0342c3c3
     assemblyName: Mirror.dll
     namespaceName: Mirror
@@ -1195,4 +1189,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/SceneJeu/Jeu.unity
-  playerPath: C:/Users/BitFenix/Desktop/App_Jeu_2/TP/TP 2/6c5H22-TP2---VD/6c5H22-TP2---VD/Build/6c5H22-TP2---VD.exe
+  playerPath: C:/Users/1867319/Desktop/Jeu2-ProjetFinal/TP2/6c5H22-TP2---VD/6c5H22-TP2---VD/Build/6c5H22-TP2---VD.exe

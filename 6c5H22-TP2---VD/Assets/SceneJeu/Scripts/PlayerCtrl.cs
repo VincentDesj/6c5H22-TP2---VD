@@ -5,16 +5,11 @@ using Mirror;
 
 public class PlayerCtrl : NetworkBehaviour
 {
-	private GameManager gameManager = new GameManager();
-
 	public int lifePoint = 5;
 
-	public override void OnStartServer()
+    public override void OnStartServer()
 	{
 		base.OnStartServer();
-		Debug.Log("On fait des boules");
-		gameManager.SpawnBalls();
-		//TODO spawn balls.
 	}
 
 	void Update()
