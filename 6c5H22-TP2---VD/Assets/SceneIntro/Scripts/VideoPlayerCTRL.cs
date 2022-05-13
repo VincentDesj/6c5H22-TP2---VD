@@ -42,7 +42,7 @@ public class VideoPlayerCTRL : MonoBehaviour
     private void surveillerCmd() {
         if (canvasVideo.enabled == false)
         {
-            gone = true;
+            //gone = true;
             Pause();
         }
         else
